@@ -37,7 +37,7 @@ img{
 }
 .container{
     width: min(calc(100% - 64px), var(--container)); 
-    margin: auto
+    margin: auto;
 }
 .header{
     position: absolute;
@@ -68,7 +68,7 @@ img{
 .nav{
     display: flex; 
     gap: 30px; 
-    margin-left: auto
+    margin-left: auto;
 }
 .nav a{
     font-size: clamp(11px, 1vw, 14px); 
@@ -76,7 +76,7 @@ img{
     font-weight: 500;
 }
 .nav a:hover:hover{
-    opacity: .65
+    opacity: .65;
 }
 .button{
     display: inline-flex;
@@ -89,7 +89,7 @@ img{
     transition: transform .2s, background .2s;
 }
 .button:hover{
-    transform: translateY(-2px)
+    transform: translateY(-2px);
 }
 .button--outline{
     border: 1px solid rgba(255,255,255,.7); 
@@ -97,21 +97,21 @@ img{
     font-weight: 500;
 }
 .button--light{
-    background: #f5f1e9; 
-    color: #171d20
+    background: #f5f1e9;
+    color: #171d20;
 }
 .menu-button{
     display: none; 
     background: none; 
     border: 0; 
-    padding: 8px
+    padding: 8px;
 }
 .menu-button span{
     display: block; 
     width: 18px; 
     height: 1px; 
     background: #fff; 
-    margin: 4px
+    margin: 4px;
 }
 .hero{
     position: relative;
@@ -142,7 +142,7 @@ img{
     font-size: 8px; 
     letter-spacing: 4px; 
     opacity: .7; 
-    margin: 0 0 18px
+    margin: 0 0 18px;
 }
 .hero h1{
     margin: 0 0 16px;
@@ -155,21 +155,21 @@ img{
 .hero__lead{
     font-size: clamp(12px, 1.1vw, 16px); 
     line-height: 1.55; 
-    margin: 0 0 25px
+    margin: 0 0 25px;
 }
 .hero__counter{
     display: flex;
     align-items: center; 
     gap: 10px; 
     margin-top: auto; 
-    font-size: 9px
+    font-size: 9px;
 }
 .hero__counter i{
     width: 38px; 
     height: 1px; 
     background: #fff; 
     display: block; 
-    opacity: .8
+    opacity: .8;
 }
 .hero__quote{
     position: absolute;
@@ -183,39 +183,39 @@ img{
 }
 .section{
     background: var(--cream); 
-    padding: 24px 0 25px
+    padding: 24px 0 25px;
 }
 .section-head{
     display: flex; 
     align-items: flex-end; 
     justify-content: space-between; 
-    margin-bottom: 17px
+    margin-bottom: 17px;
 }
 .label{
     margin: 0 0 7px; 
     color: #918d87; 
     font-size: 8px; 
-    letter-spacing: 2px
+    letter-spacing: 2px;
 }
 h2{
     font-family: "Cormorant Garamond", serif; 
     font-size:31px; 
     line-height: .88; 
-    font-weight: 500; 
-    margin: 0
+    font-weight: 500;
+    margin: 0;
 }
 .text-link{
     font-size: 11px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
 }
 .text-link span{
     font-size: 15px; 
-    margin-left: 6px
+    margin-left: 6px;
 }
 .route-grid{
     display: grid; 
     grid-template-columns: repeat(4,1fr); 
-    gap: 9px
+    gap: 9px;
 }
 .route-card{
     position: relative;
@@ -228,27 +228,27 @@ h2{
     position: absolute; 
     inset: 0; 
     height: 100%; 
-    object-fit: cover
+    object-fit: cover;
 }
 .route-card__shade{
     position: absolute; 
     inset: 0; 
-    background: linear-gradient(0deg,rgba(0,0,0,.72), transparent 65%)
+    background: linear-gradient(0deg,rgba(0,0,0,.72), transparent 65%);
 }
 .route-card>div{
     position: absolute; 
     left: 12px; 
-    bottom: 11px
+    bottom: 11px;
 }
 .route-card h3{
     font-family: "Cormorant Garamond", serif; 
     font-size: clamp(14px, 2vw, 20px); 
     font-weight: 500; 
-    margin: 0 0 2px
+    margin: 0 0 2px;
 }
 .route-card p{
     font-size: 12px; 
-    margin: 0
+    margin: 0;
 }
 .circle-arrow{
     position: absolute; 
@@ -264,7 +264,7 @@ h2{
 }
 .route-card:hover .circle-arrow{
     background: #fff; 
-    color: #1c2528
+    color: #1c2528;;
 }
 .about{
     display: grid;
@@ -274,25 +274,25 @@ h2{
     background: #1c2529;
 }
 .about__image{
-    background:url("images/about.jpg") center/cover
+    background:url("images/about.jpg") center/cover;
 }
 .about__content{
-    padding: 31px 44px
+    padding: 31px 44px;
 }
 .about__content h2{
     color: #fff; 
-    margin-bottom: 13px
+    margin-bottom: 13px;
 }
 .about__content>p:not(.label){
     font-size: 11px; 
     line-height: 1.55; 
     color: #d4d0c7; 
     margin: 0 10px 14px 0; 
-    max-width: 430px
+    max-width: 430px;
 }
 .about__content .button{
     padding: 8px 14px; 
-    font-size: 10px
+    font-size: 10px;
 }
 .stats{
     border-left: 1px solid var(--line); 
@@ -300,27 +300,27 @@ h2{
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    gap: 18px
+    gap: 18px;
 }
 .stats>div{
     display: grid; 
     grid-template-columns: 26px 1fr; 
     column-gap: 5px; 
-    align-items: center
+    align-items: center;
 }
 .stats strong{
     font-size: 22px; 
     font-weight: 300; 
-    grid-row: span 2
+    grid-row: span 2;
 }
 .stats b{
     font-family: "Cormorant Garamond", serif; 
     font-size:22px; 
-    font-weight:400
+    font-weight:400;
 }
 .stats span{
     font-size: 9px; 
-    color: #aaaeb0
+    color: #aaaeb0;
 }
 .reviews{
     padding: 18px 0 22px
@@ -328,7 +328,7 @@ h2{
 .section-head--reviews{
     max-width: 1200px; 
     margin: auto; 
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 .reviews-grid{
     display: grid; 
@@ -340,96 +340,96 @@ h2{
 .review{
     display: flex; 
     gap: 11px; 
-    padding: 8px 7px
+    padding: 8px 7px;
 }
 .review img{
     width: 35px; 
     height: 35px; 
     border-radius: 50%; 
-    object-fit: cover
+    object-fit: cover;
 }
 .review h3{
     font-size: 14px; 
     margin: 0 0 2px; 
-    font-weight: 500
+    font-weight: 500;
 }
 .review span{
     font-size: 11px; 
-    color: #aaa59d
+    color: #aaa59d;
 }
 .review p{
     font-size: 12px; 
     line-height: 1.45; 
     margin: 7px 0 0; 
-    color: #55534e
+    color: #55534e;
 }
 .footer{
     background: #162024; 
-    color: #fff
+    color: #fff;
 }
 .footer__inner{
     min-height: 68px; 
     display: flex; 
     align-items: center; 
     gap: 35px; 
-    justify-content: space-between
+    justify-content: space-between;
 }
 .socials{
     display: flex; 
     gap: 13px; 
-    font-size: 10px
+    font-size: 10px;
 }
 .footer small{
     font-size: 6px; 
     color: #858d90; 
-    white-space: nowrap
+    white-space: nowrap;
 }
 @media(max-width:900px){
     .container{
-        width: min(calc(100% - 44px),700px)
+        width: min(calc(100% - 44px),700px);
     }
     .header__inner{
-        gap: 18px
+        gap: 18px;
     }
     .nav{
-        gap: 15px
+        gap: 15px;
     }
     .header__button{
-        display: none
+        display: none;
     }
     .hero{
-        min-height: 590px
+        min-height: 590px;
     }
     .hero__content{
         min-height: 590px; 
-        padding-top: 140px
+        padding-top: 140px;
     }
     .hero h1{
-        font-size: clamp(48px,8vw,70px)
+        font-size: clamp(48px,8vw,70px);
     }
     .route-grid{
-        grid-template-columns: repeat(2,1fr)
+        grid-template-columns: repeat(2,1fr);
     }
     .about{
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
     }
     .about__image{
-        min-height: 230px
+        min-height: 230px;
     }
     .about__content{
-        padding: 30px
+        padding: 30px;
     }
     .stats{
         grid-column: 1/-1; 
         border-left: 0; 
         border-top: 1px solid var(--line); 
         flex-direction: row; 
-        justify-content: space-around
+        justify-content: space-around;
     }
 }
 @media(max-width:600px){
     .container{
-        width: calc(100% - 30px)
+        width: calc(100% - 30px);
     }
     .nav,
     .header__button {
@@ -461,124 +461,123 @@ h2{
         font-size: 12px;
     }
     .header__inner{
-        min-height: 60px
+        min-height: 60px;
     }
     .hero{
-        min-height: 520px
+        min-height: 520px;
     }
     .hero__content{
         min-height: 520px; 
-        padding-top: 120px
+        padding-top: 120px;
     }
     .hero h1{
         font-size: clamp(48px,14vw,66px); 
-        letter-spacing: -1.5px
+        letter-spacing: -1.5px;
     }
     .hero__lead{
         font-size: 9px; 
-        max-width: 230px
+        max-width: 230px;
     }
     .hero__quote{
-        display: none
+        display: none;
     }
     .route-grid{
         grid-template-columns: 1fr; 
-        gap: 7px
+        gap: 7px;
     }
     .section{
-        padding: 20px 0
+        padding: 20px 0;
     }
     .section-head{
-        align-items: flex-end
+        align-items: flex-end;
     }
     h2{
-        font-size: 29px
+        font-size: 29px;
     }
     .route-card{
-        min-height: 72px
+        min-height: 72px;
     }
     .route-card>div{
         left: 12px; 
-        bottom: 9px
+        bottom: 9px;
     }
     .route-card h3{
-        font-size: 16px
+        font-size: 16px;
     }
     .route-card p{
-        font-size: 6px
+        font-size: 6px;
     }
     .circle-arrow{
         width: 24px; 
         height: 24px; 
         right: 10px; 
-        bottom: 9px
+        bottom: 9px;
     }
     .about{
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
     .about__image{
-        min-height: 220px
+        min-height: 220px;
     }
     .about__content{
-        padding: 28px 22px
+        padding: 28px 22px;
     }
     .stats{
         grid-column: auto; 
         display: grid; 
         grid-template-columns: repeat(3,1fr); 
         gap: 8px; 
-        padding: 22px 14px
+        padding: 22px 14px;
     }
     .stats>div{
         grid-template-columns: 1fr; 
         display: flex; 
         flex-direction: column; 
-        align-items: flex-start
+        align-items: flex-start;
     }
     .stats strong{
-        font-size: 17px
+        font-size: 17px;
     }
     .stats b{
-        font-size: 20px
+        font-size: 20px;
     }
     .reviews-grid{
-        grid-template-columns: 1fr; gap: 2px
+        grid-template-columns: 1fr; gap: 2px;
     }
     .review{
-        padding: 7px 0
+        padding: 7px 0;
     }
     .review p{
-        max-width: 250px
+        max-width: 250px;
     }
     .footer__inner{
         min-height: 100px; 
         display: grid; 
         grid-template-columns: 1fr auto; 
         gap: 15px; 
-        padding: 18px 0
+        padding: 18px 0;
     }
     .footer small{
-        font-size: 5px
+        font-size: 5px;
     }
 }
-
 .route-page{
     min-height: 100vh; 
     position: relative; 
     color: #fff; 
-    display: flex; 
-    overflow: hidden
+    display: flex;
+    overflow: hidden;
 }
 .route-page__bg{
     position: absolute; 
     inset: 0; 
     background-position: center; 
-    background-size: cover
+    background-size: cover;
 }
 .route-page__overlay{
     position: absolute; 
     inset: 0; 
-    background: linear-gradient(90deg,rgba(5,10,12,.72),rgba(5,10,12,.18))
+    background: linear-gradient(90deg,rgba(5,10,12,.72),rgba(5,10,12,.18));
 }
 .route-page__inner{
     position: relative; 
@@ -586,25 +585,25 @@ h2{
     padding-top: 60px; 
     display: flex; 
     flex-direction: column; 
-    align-items: flex-start
+    align-items: flex-start;
 }
 .back{
     font-size: 11px; 
     margin-bottom: auto; 
-    opacity: .8
+    opacity: .8;
 }
 .route-page h1{
     font: 500 clamp(55px,8vw,100px)/.85 "Cormorant Garamond", serif; 
     margin: 0 0 18px; 
-    letter-spacing: -2px
+    letter-spacing: -2px;
 }
 .route-meta{
     font-size: 12px;
-    margin: 0 0 22px
+    margin: 0 0 22px;
 }
 .route-desc{
     max-width: 480px; 
     font-size: 13px; 
     line-height: 1.7; 
-    margin: 0 0 28px
+    margin: 0 0 28px;
 }
