@@ -1,0 +1,458 @@
+.mountain-hero {
+    position: relative;
+    min-height: 640px;
+    overflow: hidden;
+    color: #fff;
+}
+.forest-hero__image{
+    position: absolute;
+    inset: 0;
+    background:
+        url("images/forest_hero.jpg")
+        center / cover no-repeat;
+    transform: scale(1.01);
+}
+.aurora-hero__image{
+    position: absolute;
+    inset: 0;
+    background:
+        url("images/aurora_hero.jpg")
+        center / cover no-repeat;
+    transform: scale(1.01);
+}
+.sea-hero__image{
+    position: absolute;
+    inset: 0;
+    background:
+        url("images/sea_hero.jpg")
+        center / cover no-repeat;
+    transform: scale(1.01);
+}
+.mountain-hero__image {
+    position: absolute;
+    inset: 0;
+    background:
+        url("images/mountain.jpg")
+        center / cover no-repeat;
+    transform: scale(1.01);
+}
+.mountain-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(4, 9, 12, .64),
+            rgba(4, 9, 12, .08) 70%,
+            rgba(4, 9, 12, .16)
+        );
+}
+.mountain-hero__content {
+    position: relative;
+    z-index: 1;
+    min-height: 640px;
+    padding-top: 105px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mountain-back {
+    margin-bottom: auto;
+    color: rgba(255, 255, 255, .78);
+    font-size: 11px;
+    transition: opacity .2s;
+}
+.mountain-back:hover {
+    opacity: .65;
+}
+.mountain-hero__text {
+    max-width: 510px;
+}
+.mountain-label {
+    color: rgba(255, 255, 255, .7);
+}
+.mountain-hero h1 {
+    margin: 0 0 17px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(55px, 7vw, 84px);
+    font-weight: 400;
+    line-height: .84;
+    letter-spacing: -2px;
+}
+.mountain-hero__lead {
+    max-width: 430px;
+    margin: 0 0 25px;
+    color: rgba(255, 255, 255, .86);
+    font-size: clamp(12px, 1.1vw, 16px);
+    line-height: 1.55;
+}
+.mountain-hero__counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+    font-size: 9px;
+}
+.mountain-hero__counter i {
+    width: 38px;
+    height: 1px;
+    display: block;
+    background: #fff;
+    opacity: .8;
+}
+.mountain-hero__quote {
+    position: absolute;
+    right: 65px;
+    bottom: 72px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.05;
+    opacity: .8;
+    transform: rotate(-7deg);
+}
+.mountain-advantages {
+    background: var(--cream);
+    border-bottom: 1px solid var(--dark-line);
+}
+.mountain-advantages__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.mountain-advantage {
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 14px 20px;
+    border-right: 1px solid var(--dark-line);
+}
+.mountain-advantage:first-child {
+    border-left: 1px solid var(--dark-line);
+}
+.mountain-advantage > strong {
+    width: 24px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.mountain-advantage b,
+.mountain-advantage span {
+    display: block;
+}
+.mountain-advantage b {
+    font-size: 10px;
+    font-weight: 500;
+}
+.mountain-advantage span {
+    margin-top: 2px;
+    color: var(--muted);
+    font-size: 9px;
+}
+.mountain-routes {
+    padding-top: 32px;
+    padding-bottom: 36px;
+}
+.mountain-route-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+}
+.mountain-route-card {
+    position: relative;
+    min-height: 155px;
+    overflow: hidden;
+    border-radius: 4px;
+    color: #fff;
+}
+.mountain-route-card img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .45s ease;
+}
+.mountain-route-card:hover img {
+    transform: scale(1.04);
+}
+.mountain-route-card__shade {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            0deg,
+            rgba(0, 0, 0, .74),
+            transparent 67%
+        );
+}
+.mountain-route-card > div {
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+}
+.mountain-route-card h3 {
+    margin: 0 0 2px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(15px, 2vw, 21px);
+    font-weight: 500;
+}
+.mountain-route-card p {
+    margin: 0;
+    font-size: 12px;
+}
+.mountain-route-card .circle-arrow {
+    transition:
+        background .2s,
+        color .2s;
+}
+.mountain-route-card:hover .circle-arrow {
+    background: #fff;
+    color: #1c2528;
+}
+.mountain-cta {
+    display: grid;
+    grid-template-columns: 36% 64%;
+    min-height: 250px;
+    color: #fff;
+    background: #1c2529;
+}
+.mountain-cta__image {
+    min-height: 250px;
+    background:
+        url("images/about.jpg")
+        center / cover no-repeat;
+}
+.sea-cta__image {
+    min-height: 250px;
+    background:
+        url("images/about.jpg")
+        center / cover no-repeat;
+}
+.forest-cta__image {
+    min-height: 250px;
+    background:
+        url("images/about.jpg")
+        center / cover no-repeat;
+}
+.aurora-cta__image {
+    min-height: 250px;
+    background:
+        url("images/about.jpg")
+        center / cover no-repeat;
+}
+.mountain-cta__content {
+    padding: 38px 55px;
+}
+.mountain-cta__content h2 {
+    margin-bottom: 14px;
+    color: #fff;
+    font-size: 34px;
+    line-height: .9;
+}
+.mountain-cta__content > p:not(.label) {
+    max-width: 500px;
+    margin: 0 0 18px;
+    color: #d4d0c7;
+    font-size: 11px;
+    line-height: 1.55;
+}
+.mountain-cta__content .button {
+    padding: 9px 15px;
+    font-size: 10px;
+}
+@media (max-width: 900px) {
+    .mountain-hero {
+        min-height: 590px;
+    }
+    .mountain-hero__content {
+        min-height: 590px;
+        padding-top: 95px;
+    }
+    .mountain-hero h1 {
+        font-size: clamp(48px, 8vw, 70px);
+    }
+    .mountain-advantages__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mountain-advantage:nth-child(3) {
+        border-left: 1px solid var(--dark-line);
+    }
+    .mountain-route-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mountain-route-card {
+        min-height: 180px;
+    }
+    .mountain-cta {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mountain-cta__content {
+        padding: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .mountain-hero {
+        min-height: 520px;
+    }
+    .mountain-hero__content {
+        min-height: 520px;
+        padding-top: 90px;
+    }
+    .mountain-hero h1 {
+        font-size: clamp(48px, 14vw, 66px);
+        letter-spacing: -1.5px;
+    }
+    .mountain-hero__lead {
+        max-width: 260px;
+        font-size: 9px;
+    }
+    .mountain-hero__quote {
+        display: none;
+    }
+    .mountain-advantages__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mountain-advantage {
+        min-height: 70px;
+        padding: 10px 8px;
+        gap: 8px;
+    }
+    .mountain-advantage > strong {
+        font-size: 16px;
+    }
+    .mountain-advantage b,
+    .mountain-advantage span {
+        font-size: 8px;
+    }
+    .mountain-routes {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mountain-route-grid {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+    .mountain-route-card {
+        min-height: 100px;
+    }
+    .mountain-route-card h3 {
+        font-size: 16px;
+    }
+    .mountain-route-card p {
+        font-size: 8px;
+    }
+    .mountain-cta {
+        grid-template-columns: 1fr;
+    }
+    .mountain-cta__image {
+        min-height: 220px;
+    }
+    .mountain-cta__content {
+        padding: 28px 22px;
+    }
+    .mountain-cta__content h2 {
+        font-size: 29px;
+    }
+    .modal {
+        padding: 15px;
+    }
+    .modal__content {
+        padding: 30px 22px;
+    }
+    .modal__content h2 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 390px) {
+    .mountain-advantages__grid {
+        grid-template-columns: 1fr;
+    }
+    .mountain-advantage,
+    .mountain-advantage:nth-child(3) {
+        border-left: 0;
+    }
+    .mountain-advantage {
+        border-right: 0;
+        border-bottom: 1px solid var(--dark-line);
+    }
+}
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(8, 13, 15, .65);
+    backdrop-filter: blur(8px);
+}
+.modal.is-open {
+    display: flex;
+}
+.modal__content {
+    position: relative;
+    width: min(100%, 470px);
+    padding: 40px;
+    border-radius: 8px;
+    background: var(--cream);
+    color: var(--dark);
+    box-shadow: 0 25px 80px rgba(0, 0, 0, .3);
+}
+.modal__close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    background: transparent;
+    color: var(--dark);
+    font-size: 25px;
+    line-height: 1;
+    cursor: pointer;
+}
+.modal__content h2 {
+    margin: 8px 0 25px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: .95;
+}
+.modal__content form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.modal__content label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.modal__content input,
+.modal__content select {
+    width: 100%;
+    min-height: 42px;
+    padding: 10px 13px;
+    border: 1px solid rgba(28, 37, 41, .2);
+    border-radius: 4px;
+    outline: none;
+    background: #fff;
+    color: var(--dark);
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+}
+.modal__content input:focus,
+.modal__content select:focus {
+    border-color: var(--dark);
+
+}
+.modal__content .button {
+    margin-top: 7px;
+    border: 0;
+    cursor: pointer;
+}

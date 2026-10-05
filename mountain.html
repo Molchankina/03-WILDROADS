@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WILDROADS — горные походы и авторские маршруты.">
+        <title>Горные походы — WILDROADS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="route.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header__inner">
+                <a href="index.html" class="logo"><span class="logo__mark">△</span><span>WILDROADS</span></a>
+                <nav class="nav">
+                    <a href="index.html#routes">Маршруты</a>
+                    <a href="index.html#about">О проекте</a>
+                    <a href="index.html#reviews">Отзывы</a>
+                    <a href="index.html#blog">Блог</a>
+                    <a href="index.html#contacts">Контакты</a>
+                </nav>
+                <a class="button button--outline header__button" href="#booking">Забронировать</a>
+                <button class="menu-button" type="button" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        <main>
+            <section class="mountain-hero">
+                <div class="mountain-hero__image"></div>
+                <div class="mountain-hero__overlay"></div>
+                <div class="container mountain-hero__content">
+                    <a class="mountain-back" href="index.html#routes">← Все маршруты </a>
+                    <div class="mountain-hero__text">
+                        <p class="label mountain-label">ГОРНЫЕ ПОХОДЫ</p>
+                        <h1>Горные<br>походы</h1>
+                        <p class="mountain-hero__lead">Восхождения, треккинг и маршруты среди настоящих гор. Чистый воздух, тишина и эмоции, которые остаются с вами надолго.</p>
+                        <a class="button button--light" href="#routes">Выбрать маршрут<span>→</span></a>
+                    </div>
+                    <div class="mountain-hero__counter">
+                        <span>01</span>
+                        <i></i>
+                        <span>04</span>
+                    </div>
+                    <div class="mountain-hero__quote">
+                        Горы бывают разные.<br>Своя найдётся для каждого.
+                    </div>
+                </div>
+            </section>
+            <section class="mountain-advantages">
+                <div class="container mountain-advantages__grid">
+                    <div class="mountain-advantage">
+                        <strong>⚑</strong>
+                        <div>
+                            <b>Опытные гиды</b>
+                            <span>и инструкторы</span>
+                        </div>
+                    </div>
+                    <div class="mountain-advantage">
+                        <strong>⌖</strong>
+                        <div>
+                            <b>Продуманные</b>
+                            <span>маршруты</span>
+                        </div>
+                    </div>
+                    <div class="mountain-advantage">
+                        <strong>⚿</strong>
+                        <div>
+                            <b>Безопасность</b>
+                            <span>на каждом этапе</span>
+                        </div>
+                    </div>
+                    <div class="mountain-advantage">
+                        <strong>♢</strong>
+                        <div>
+                            <b>Комфортное</b>
+                            <span>снаряжение</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section mountain-routes" id="routes">
+                <div class="container">
+                    <div class="section-head">
+                        <div>
+                            <p class="label">ПОПУЛЯРНЫЕ МАРШРУТЫ</p>
+                            <h2>Выбери свою вершину</h2>
+                        </div>
+                        <a class="text-link" href="index.html#routes"> Все маршруты <span>→</span></a>
+                    </div>
+                    <div class="mountain-route-grid">
+                        <article class="mountain-route-card">
+                            <img src="images/elbrus.jpg" alt="Эльбрус">
+                            <span class="mountain-route-card__shade"></span>
+                            <div>
+                                <h3>Эльбрус</h3>
+                                <p>7 дней · от 45 000 ₽</p>
+                            </div>
+                            <span class="circle-arrow">→</span>
+                        </article>
+                        <article class="mountain-route-card">
+                            <img src="images/dombai.jpg" alt="Домбай">
+                            <span class="mountain-route-card__shade"></span>
+                            <div>
+                                <h3>Домбай</h3>
+                                <p>5 дней · от 39 000 ₽</p>
+                            </div>
+                            <span class="circle-arrow">→</span>
+                        </article>
+                        <article class="mountain-route-card">
+                            <img src="images/kavkaz.jpg" alt="Кавказский хребет">
+                            <span class="mountain-route-card__shade"></span>
+                            <div>
+                                <h3>Кавказский хребет</h3>
+                                <p>6 дней · от 42 000 ₽</p>
+                            </div>
+                            <span class="circle-arrow">→</span>
+                        </article>
+                        <article class="mountain-route-card">
+                            <img src="images/altai.jpg" alt="Алтай">
+                            <span class="mountain-route-card__shade"></span>
+                            <div>
+                                <h3>Алтай</h3>
+                                <p>8 дней · от 48 000 ₽</p>
+                            </div>
+                            <span class="circle-arrow">→</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="mountain-cta" id="booking">
+                <div class="mountain-cta__image"></div>
+                <div class="mountain-cta__content">
+                    <p class="label">ГОТОВЫ К НОВЫМ ВЕРШИНАМ?</p>
+                    <h2>Найдём маршрут,<br>который подойдёт именно вам</h2>
+                    <p>Расскажите о своём опыте и пожеланиях — мы поможем выбрать маршрут по уровню подготовки, продолжительности и сложности.</p>
+                    <button class="button button--light" type="button" id="open-booking">Оставить заявку<span>→</span></button>
+                </div>
+            </section>
+        </main>
+        <div class="modal" id="general-modal">
+            <div class="modal__content">
+                <button class="modal__close" type="button" aria-label="Закрыть">×</button>
+                <p class="label">ОСТАВИТЬ ЗАЯВКУ</p>
+                <h2>Расскажите о своих планах</h2>
+                <form id="general-form">
+                    <label>
+                        Ваше имя
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Имя"
+                            required
+                        >
+                    </label>
+                    <label>
+                        Телефон
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="+7 (___) ___-__-__"
+                            required
+                        >
+                    </label>
+                    <label>
+                        Маршрут
+                        <select name="route" required>
+                            <option value="">Выберите маршрут</option>
+                            <option value="Эльбрус">Эльбрус</option>
+                            <option value="Домбай">Домбай</option>
+                            <option value="Кавказский хребет">Кавказский хребет</option>
+                            <option value="Алтай">Алтай</option>
+                        </select>
+                    </label>
+                    <button class="button button--dark" type="submit">Отправить заявку<span>→</span></button>
+                </form>
+            </div>
+        </div>
+        <div class="modal" id="route-modal">
+            <div class="modal__content">
+                <button class="modal__close" type="button" aria-label="Закрыть">×</button>
+                <p class="label">ЗАЯВКА НА МАРШРУТ</p>
+                <h2 id="route-form-title">Эльбрус</h2>
+                <form id="route-form">
+                    <input type="hidden" name="route" id="route-value">
+                    <label>
+                        Ваше имя
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Имя"
+                            required
+                        >
+                    </label>
+                    <label>
+                        Телефон
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="+7 (___) ___-__-__"
+                            required
+                        >
+                    </label>
+                    <button class="button button--dark" type="submit">Отправить заявку<span>→</span></button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer" id="contacts">
+            <div class="container footer__inner">
+                <a href="index.html#top" class="logo"><span class="logo__mark">△</span><span>WILDROADS</span>
+                </a>
+                <div class="socials">
+                    <span>◎</span>
+                    <span>➤</span>
+                    <span>VK</span>
+                </div>
+                <small>© 2026 Wildroads. Все права защищены.</small>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
